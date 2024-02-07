@@ -87,7 +87,7 @@ const perguntas = [
         "5",
         "6",
       ],
-      correta: 0
+      correta: 1
     },
   ];
   
