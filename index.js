@@ -1,95 +1,97 @@
 const perguntas = [
     {
-      pergunta: "Qual é a palavra-chave utilizada para declarar uma variável em JavaScript?",
+      pergunta: "Qual clube brasileiro é conhecido como 'Mengão'?",
       respostas: [
-        "let",
-        "variable",
-        "var",
+        "Palmeiras",
+        "Santos",
+        "Flamengo",
       ],
       correta: 2
     },
     {
-      pergunta: "Qual método é utilizado para imprimir algo no console em JavaScript?",
+      pergunta: "Em que estado está localizado o estádio Beira-Rio, casa do Internacional?",
       respostas: [
-        "console.print()",
-        "log()",
-        "console.log()",
+        "São Paulo",
+        "Rio de Janeiro",
+        "Rio Grande do Sul",
       ],
       correta: 2
     },
     {
-      pergunta: "Qual operador é utilizado para comparar se dois valores são iguais em valor e tipo em JavaScript?",
+      pergunta: "Quem é o maior artilheiro da história da seleção brasileira de futebol?",
       respostas: [
-        "==",
-        "===",
-        "=",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual função é utilizada para converter uma string em um número inteiro em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "stringToInt()",
-        "toInteger()",
+        "Pelé",
+        "Neymar",
+        "Ronaldo",
       ],
       correta: 0
     },
     {
-      pergunta: "Qual estrutura de controle é utilizada para executar um bloco de código repetidamente enquanto uma condição especificada for verdadeira?",
+      pergunta: "Quantos títulos da Copa do Brasil o Cruzeiro possui até o momento (até 2022)?",
       respostas: [
-        "if",
-        "for",
-        "while",
+        "3",
+        "5",
+        "6",
       ],
       correta: 2
     },
     {
-      pergunta: "O que significa a sigla DOM em JavaScript?",
+      pergunta: "Qual clube venceu a primeira edição da Copa Libertadores da América?",
       respostas: [
-        "Document Object Model",
-        "Data Object Model",
-        "Document Oriented Model",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual método é utilizado para adicionar um elemento ao final de um array em JavaScript?",
-      respostas: [
-        "addToEnd()",
-        "append()",
-        "push()",
+        "Santos",
+        "Boca Juniors",
+        "Independiente",
       ],
       correta: 2
     },
     {
-      pergunta: "O que o operador '++' faz em JavaScript?",
+      pergunta: "Em que ano o Brasil sediou a Copa do Mundo de Futebol pela primeira vez?",
       respostas: [
-        "Incrementa o valor em 1",
-        "Decrementa o valor em 1",
-        "Dobra o valor",
+        "1950",
+        "1962",
+        "1970",
       ],
       correta: 0
     },
     {
-      pergunta: "Como você comenta uma linha de código em JavaScript?",
+      pergunta: "Qual jogador é conhecido como 'O Fenômeno'?",
       respostas: [
-        "// Comentário",
-        "# Comentário",
-        "/* Comentário */",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é um closure em JavaScript?",
-      respostas: [
-        "Uma função anônima",
-        "Um objeto JavaScript",
-        "A combinação de uma função e o ambiente em que ela foi declarada",
+        "Zico",
+        "Romário",
+        "Ronaldo",
       ],
       correta: 2
-    }
+    },
+    {
+      pergunta: "Qual clube ganhou mais títulos do Campeonato Brasileiro até 2022?",
+      respostas: [
+        "Palmeiras",
+        "São Paulo",
+        "Flamengo",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual foi o primeiro clube brasileiro a vencer a Copa Libertadores?",
+      respostas: [
+        "Santos",
+        "Flamengo",
+        "Cruzeiro",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quantos títulos da Copa do Mundo a seleção brasileira conquistou até 2022?",
+      respostas: [
+        "4",
+        "5",
+        "6",
+      ],
+      correta: 0
+    },
   ];
+  
+  
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
