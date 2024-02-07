@@ -18,7 +18,7 @@ const perguntas = [
       correta: 2
     },
     {
-      pergunta: "Quem é o maior artilheiro da história da seleção brasileira de futebol?",
+      pergunta: "Quem é o maior artilheiro da história da seleção brasileira de futebol (até 2022)?",
       respostas: [
         "Pelé",
         "Neymar",
